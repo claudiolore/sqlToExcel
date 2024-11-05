@@ -7,9 +7,9 @@
     <Nullable>enable</Nullable>
   </PropertyGroup>
 
-  <ItemGroup>
-    <PackageReference Include="ClosedXML" Version="0.104.1" />
-    <PackageReference Include="System.Data.SqlClient" Version="4.8.6" />
-  </ItemGroup>
+	<ItemGroup>
+		<PackageReference Include="System.Data.SQLite.Core" Version="1.0.118" />
+		<PackageReference Include="ClosedXML" Version="0.102.1" />
+	</ItemGroup>
 
 </Project>
